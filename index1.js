@@ -4,7 +4,7 @@ const mysql = require('mysql2');
 const cors = require('cors');
 const bcrypt = require('bcrypt'); // For hashing passwords
 const app = express();
-const port = 5000;
+const port = process.env.port;
 
 app.use(cors({
     origin: 'http://127.0.0.1:3000', // The frontend URL
@@ -15,10 +15,10 @@ app.use(cors({
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'siddh@rth@2005',
-  database: 'Food',
+  host: process.env.host,
+  user: process.env.user,
+  password:process.env.password,
+  database:process.env.database,
 });
 
 db.connect((err) => {
