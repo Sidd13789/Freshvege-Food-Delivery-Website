@@ -19,11 +19,11 @@ A responsive, modern website for fresh vegetables and food delivery, built with 
 
 🧩 Future Enhancements
 
-1:- Add user authentication (signup/login)
-2:-Integrate backend & database for orders, inventory, users
-3:-Payment gateway integration
-4:-Admin panel for managing products & orders
-5:-Push notifications or real-time order tracking
+1:- Add user authentication (signup/login)--
+2:- Integrate backend & database for orders, inventory, users--
+3:- Payment gateway integration--
+4:- Admin panel for managing products & orders--
+5:- Push notifications or real-time order tracking--
 
 
 
